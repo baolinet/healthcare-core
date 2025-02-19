@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: healthcare-core
+  profiles:
+    active: test
