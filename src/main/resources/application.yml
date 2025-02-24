@@ -1,5 +1,17 @@
 spring:
-  application:
-    name: healthcare-core
-  profiles:
-    active: prod
+  datasource:
+    url: jdbc:mysql://mysql-3ea6bcea-sensemore.i.aivencloud.com:17890/defaultdb
+    username: avnadmin
+    password: AVNS_OApBPCrx7zDpxEGs_jZ
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      javax:
+        persistence:
+          sharedCache:
+            mode: NONE
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: never

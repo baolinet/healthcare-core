@@ -1,2 +1,7 @@
 # Maven target directory
-target/ 
+target/
+.vscode/
+.idea/
+logs/
+*.iml
+.Ds_Store
