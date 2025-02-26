@@ -1,4 +1,4 @@
-package com.healthcare.healthcare_core;
+package com.healthcare.core;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -15,7 +15,7 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
-@SpringBootApplication(	)
+@SpringBootApplication()
 public class HealthcareCoreApplication {
 	
 	public static void main(String[] args) {
